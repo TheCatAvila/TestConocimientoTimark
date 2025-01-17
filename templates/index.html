@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test HTML, CSS y JS</title>
+    <title>Test conocimiento Diego Ávila</title>
     <link rel="stylesheet" href="static/css/styles.css">
 </head>
 <body>
     <main>
-        <form action="" id="test-form">
+        <form action="registrar-usuario" method="POST" id="test-form">
             <!-- Nombre -->
             <label for="nombre">Nombre</label>
-            <input class="inp-form" type="text" id="nombre">
+            <input class="inp-form" type="text" id="nombre" name="nombre">
             <!-- Email -->
             <label for="email">Email</label>
-            <input class="inp-form" type="email" id="email">
+            <input class="inp-form" type="email" id="email" name="email">
             <!-- Email errores -->
             <div class="msg-error msg_error_email_null invisible">
                 <p>Error: Este campo no puede estar vacío.</p>
@@ -24,7 +24,7 @@
             </div>
             <!-- Contraseña -->
             <label for="password">Contraseña</label>
-            <input class="inp-form" type="password" id="password">
+            <input class="inp-form" type="password" id="password" name="password">
             <!-- Btn enviar -->
             <button class="btn-submit" type="submit">Enviar</button>
         </form>  
